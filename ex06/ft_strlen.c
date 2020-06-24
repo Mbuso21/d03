@@ -1,20 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate_div_mod.c                              :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmehloma <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/06/24 08:18:17 by mmehloma          #+#    #+#             */
-/*   Updated: 2020/06/24 08:18:36 by mmehloma         ###   ########.fr       */
+/*   Created: 2020/06/24 08:33:57 by mmehloma          #+#    #+#             */
+/*   Updated: 2020/06/24 10:11:03 by mmehloma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include <unistd.h>
 
-
-void ft_ultimate_div_mod(int *a, int *b)
+int ft_strlen(char *str)
 {
-	int c;
-	c = *a
-	*a = *a / *b;
-	*b = c % *b;
+	int count;
+	count = 0;
+	while(str[count])
+	{
+		count++;
+	}
+	
+	return count;
 }
+

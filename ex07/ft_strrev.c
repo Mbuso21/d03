@@ -1,20 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate_div_mod.c                              :+:      :+:    :+:   */
+/*   ft_strrev.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmehloma <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/06/24 08:18:17 by mmehloma          #+#    #+#             */
-/*   Updated: 2020/06/24 08:18:36 by mmehloma         ###   ########.fr       */
+/*   Created: 2020/06/24 10:17:22 by mmehloma          #+#    #+#             */
+/*   Updated: 2020/06/24 10:22:13 by mmehloma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
 
-void ft_ultimate_div_mod(int *a, int *b)
+char *ft_strrev(char *str)
 {
-	int c;
-	c = *a
-	*a = *a / *b;
-	*b = c % *b;
-}
+	int a;
+	char *rev;
+	a = 0;
+
+
